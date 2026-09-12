@@ -105,3 +105,4 @@ configuration/data arguments and defer importing TorchSISSO. Manuscript-relevant
 robustness entry points are in `scripts/robustness/` and do not contain local
 absolute paths.
 
+# fullerene-ph-sisso
