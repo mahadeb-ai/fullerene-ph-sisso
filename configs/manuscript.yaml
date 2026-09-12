@@ -1,0 +1,8 @@
+targets: data/raw/Fullerene_dataset.csv
+ph_features: data/processed/ph_features.parquet
+ph_sheet: ph_stats_36_life_death
+distortion_manifest: data/splits/distortion_main/manifest.csv
+fermi_manifest: data/splits/fermi_main/manifest.csv
+output_directory: results
+seed: 42
+

@@ -1,0 +1,13 @@
+target: Distortion_E
+seed: 42
+test_fraction: 0.2
+split_method: per_regime_random_row_80_20_seed42
+regimes:
+  small: {maximum_atoms: 36}
+  intermediate: {minimum_atoms_exclusive: 36, maximum_atoms: 76}
+  large: {minimum_atoms_exclusive: 76}
+discovery:
+  n_expansions: [1, 2, 3]
+  n_terms: [1, 2, 3, 4]
+  k_values: [10, 15, 20]
+

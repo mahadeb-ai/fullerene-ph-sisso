@@ -1,0 +1,5 @@
+# Expected local/external artifacts; paths are relative to repository root.
+35cba1c4bd92463145e6781bf19e80803dbdf2806daf5a23e2c8781b27a5c1e4  data/raw/Fullerene_dataset.csv
+5e21e7b32cad7921a7300f20d414dc2f110bd6711ad57250c351adf11b0ccad5  data/raw/CSIRO_Data/Fullerene_data.zip
+409b1b9225ceaf7fd7b0f8c2b0ce4a38e703aeddf90b7eb56b450491fe54b279  data/processed/topology_rips_features_fullerene_ALL.xlsx
+

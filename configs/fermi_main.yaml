@@ -1,0 +1,12 @@
+target: Fermi_E
+charges: [-1, 1]
+seed: 42
+test_fraction: 0.2
+split_method: within_Cn_target_quantile_isomer_80_20_seed42
+q0_policy: unsupported
+discovery:
+  quantile_bins: 5
+  n_expansions: [1, 2, 3]
+  n_terms: [1, 2, 3, 4]
+  k_values: [10, 15, 20]
+

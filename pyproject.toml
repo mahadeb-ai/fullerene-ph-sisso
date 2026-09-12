@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fullerene-ph-sisso"
+version = "0.1.0"
+description = "Reproducible persistent-homology and SISSO workflows for fullerene properties"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "License pending author selection; see LICENSE_SELECTION.md"}
+authors = [
+  {name = "Mahadeb Mandal"},
+  {name = "Benquan Wang"},
+  {name = "Kelin Xia"},
+]
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.3",
+  "scipy==1.15.3",
+  "scikit-learn==1.7.2",
+  "matplotlib==3.10.8",
+  "gudhi==3.12.0",
+  "openpyxl==3.1.5",
+  "pyarrow",
+  "PyYAML==6.0.3",
+]
+
+[project.optional-dependencies]
+discovery = ["torch==2.10.0", "TorchSisso==0.1.8"]
+figures = ["matplotlib==3.10.8"]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["integration: requires the external full dataset"]
+

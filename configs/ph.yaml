@@ -1,0 +1,12 @@
+input_table: data/raw/Fullerene_dataset.csv
+xyz_directory: data/raw/CSIRO_Data
+output: data/processed/ph_features.parquet
+max_edge_length_angstrom: 8.0
+max_simplex_dimension: 3
+homology_dimensions: [0, 1, 2]
+homology_coeff_field: 11
+betti_filtrations: [1, 2, 3, 4, 5]
+entropy_orders: [-2, -1, 1, 2, 3]
+moment_orders: [-2, -1, 1, 2, 3]
+epsilon: 1.0e-12
+

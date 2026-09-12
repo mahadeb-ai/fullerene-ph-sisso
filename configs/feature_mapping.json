@@ -1,0 +1,15 @@
+{
+  "N0": "life_b0_N",
+  "N1": "life_b1_N",
+  "N2": "life_b2_N",
+  "M_2_2": "life_b2_M_q2",
+  "ell_2_max": "life_b2_ell_max",
+  "H_0_3": "life_b0_H_r3",
+  "H_0_minus2": "life_b0_H_r-2",
+  "Hd_2_2": "death_b2_H_r2",
+  "Hd_2_minus2": "death_b2_H_r-2",
+  "Md_1_2": "death_b1_M_q2",
+  "Md_1_minus2": "death_b1_M_q-2",
+  "Md_2_minus2": "death_b2_M_q-2"
+}
+

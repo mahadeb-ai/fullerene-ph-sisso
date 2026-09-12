@@ -1,0 +1,9 @@
+{
+  "coefficient_policy": "rounded manuscript coefficients; no refitting",
+  "distortion_regimes": {"small": "n <= 36", "intermediate": "36 < n <= 76", "large": "n > 76"},
+  "fermi_charges": [-1, 1],
+  "fermi_q0": "unsupported",
+  "supplementary_qplus_form": "2699.60*(N2/N0)*Hd_2_2*(Md_1_minus2^2)*(Md_2_minus2^2)-10.21",
+  "implementation": "src/ph_sisso/equations.py"
+}
+
