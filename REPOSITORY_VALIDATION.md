@@ -133,13 +133,4 @@ conda run -n base pytest -q
 For the public default layout, omit path overrides after producing
 `data/processed/ph_features.parquet` from authorized raw data.
 
-## 13. Unresolved release blockers
-
-1. Author selection of MIT, BSD-3-Clause, or another code license.
-2. Verified CSIRO citation, DOI/URL, retrieval date, and data license.
-3. Decision on whether derived PH features may be distributed as a release asset.
-4. Clarification of charge-state geometry optimization protocol.
-5. Exact TorchSISSO source commit/environment reproduction for discovery.
-6. DOI/journal/repository metadata and public contact details.
-7. Author resolution or relabelling of Supplementary distortion RMSE provenance.
 
